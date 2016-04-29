@@ -62,6 +62,7 @@ public class TextFile
     {
         ArrayList<String> allLines = new ArrayList<String>();
         int currentLineNumber = 0;
+        int test = 0;
         try
         {
             Scanner fileScanner = new Scanner(file);
